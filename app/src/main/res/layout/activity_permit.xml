@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Switch
+        android:id="@+id/BUTTON_SWITCH0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="80dp"
+        android:text="저장소, GPS 센서허용"
+        android:textAlignment="viewEnd" />
+
+    <Switch
+        android:id="@+id/BUTTON_SWITCH1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/BUTTON_SWITCH0"
+        android:layout_marginBottom="15dp"
+        android:text="전화, 문자, 주소록 센서허용"
+        android:textAlignment="viewEnd" />
+
+    <Switch
+        android:id="@+id/BUTTON_SWITCH2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/BUTTON_SWITCH1"
+        android:layout_marginBottom="15dp"
+        android:text="알림액세스 센서허용"
+        android:textAlignment="viewEnd" />
+
+    <Switch
+        android:id="@+id/BUTTON_SWITCH3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/BUTTON_SWITCH2"
+        android:text="접근성 센서허용"
+        android:textAlignment="viewEnd" />
+</RelativeLayout>
